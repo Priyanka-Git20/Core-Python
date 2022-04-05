@@ -6,6 +6,7 @@
 @Title : Computes the power of two.
 '''
 
+
 import math
 import sys
 
