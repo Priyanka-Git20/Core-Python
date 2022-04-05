@@ -7,6 +7,9 @@
 '''
 
 import math
+import sys
+
+
 def computePowerOfTwo():
     """
        Description:
@@ -17,8 +20,7 @@ def computePowerOfTwo():
            Returning nothing but print the message.
     """
 
-    print("Enter a Exponent")
-    exponent = int(input())
+    exponent = int(sys. argv[1])
 
     if (exponent >= 0) and (exponent < 31):
             value = int(math.pow(2,exponent))
