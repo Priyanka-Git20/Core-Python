@@ -28,4 +28,5 @@ def computePowerOfTwo():
     else:
             print("Enter the exponent between 0 to 31")
 
+
 computePowerOfTwo()
