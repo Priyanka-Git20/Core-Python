@@ -17,8 +17,7 @@ def replaceString ():
     """
 
     oldTemplete = "Hello name How are you!"
-    print("Enter the user name")
-    userName = input()
+    userName = input(("Enter the user name:\n"))
 
     if len(userName) < 3:
          print("Please enter the string with more three characters.")
