@@ -21,13 +21,15 @@ def computePowerOfTwo():
            Returning nothing but print the message.
     """
 
-    exponent = int(sys. argv[1])
-
+    number = 2
+    exponent = int(sys.argv[1])
     if (exponent >= 0) and (exponent < 31):
-            value = int(math.pow(2,exponent))
-            print("Value of 2^{} is {}".format(exponent,value))
+        value = number ** exponent
+        print("Value of 2^{} is {}".format(exponent, value))
     else:
-            print("Enter the exponent between 0 to 31")
+        print("Enter the exponent between 0 to 31")
 
 
 computePowerOfTwo()
+
+
