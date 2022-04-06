@@ -19,13 +19,12 @@ def flipPercentage():
             Return the printing message
     """
 
-    print("Enter the how many times want to flip the coin")
-    numberOfFlip = int(input())
+    numberOfFlip = int(input("Enter the how many times want to flip the coin:\n"))
     tail = 0
     head = 0
     for i in range(1,numberOfFlip+1):
         flipCheck = random.uniform(0,1)
-        if flipCheck <0.5 :
+        if flipCheck < 0.5:
             tail += 1
         else:
             head += 1
@@ -34,4 +33,5 @@ def flipPercentage():
     headPercentage = 100 - tailPercentage
     print("Head percentage is",headPercentage)
 
-(flipPercentage())
+
+flipPercentage()
