@@ -16,14 +16,14 @@ def harmonicValue():
         Return:
             Return the sum of nth harmonic number
     """
-    print("Enter the harmonic value")
-    harmonicValue = int(input())
+
+    harmonicValue = int(input(("Enter the harmonic value:\n")))
     harmonicSum = 0
 
     for i in range(1,harmonicValue+1):
         if (harmonicValue != 0):
             harmonicSum += 1/i
-    return harmonicSum
+    return "Harmonic sum is",harmonicSum
 
 
 print(harmonicValue())
